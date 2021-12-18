@@ -646,7 +646,8 @@ menu section
 }
 
 .menu-item-title img{
-    max-width: 100%;
+    width: 60px;
+    height: 60px;
     margin-right: 15px;
 }
 
