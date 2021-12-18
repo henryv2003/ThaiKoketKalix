@@ -664,6 +664,36 @@ menu section
     color: var(--white);
 }
 
+/*-----------------------
+ gallery
+ ----------------------*/
+ .gallery-section{
+    background-color: var(--dark);
+        
+}
+
+.gallery-section .section-title{
+    margin-bottom: 40px;
+}
+
+.gallery-section .gallery-images{
+    width: 100%;
+}
+
+
+.gallery-section .gallery-images img{
+    width: 180px;
+    height: 130px;
+    border: 1px solid rgb(203, 154, 41);
+    border-radius: 10px;
+    margin: 5px;
+
+}
+
+
+
+
+
 /*-----------------
 footer
 ------------------*/
@@ -734,6 +764,9 @@ border-top: 1px solid var(--white-light);
 
 }
 
+
+
+
 /*-------------------------
 responsive
 --------------------------*/
@@ -783,3 +816,4 @@ responsive
 @media(max-width:575px){
 
 }
+
