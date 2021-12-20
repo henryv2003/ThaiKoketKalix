@@ -684,7 +684,7 @@ menu section
 .gallery-section .gallery-images img{
     width: 180px;
     height: 130px;
-    border: 1px solid rgb(203, 154, 41);
+    border: 2px solid rgb(203, 154, 41);
     border-radius: 10px;
     margin: 5px;
 
@@ -812,6 +812,11 @@ responsive
         padding: 0;
         margin-left: 2%;
     }
+}
+
+.gallery-section .gallery-images{
+    display: block;
+}
 }
 @media(max-width:575px){
 
