@@ -484,21 +484,21 @@ about section
 buffe section
 ------------------------*/
 
-.buffe-section{
+#buffe-section{
     background-color: var(--dark);
     width: 100%;   
 }
 
-.buffe-section .section-title{
+#buffe-section .section-title{
     margin: 20px 0;
 }
 
-.buffe-section .section-title h2{
+#buffe-section .section-title h2{
     font-size: 35px;
     text-transform: capitalize;
 }
 
-.buffe-section .section-title h2::before{
+#buffe-section .section-title h2::before{
     content: attr(data-title);
     display: block;
     font-size: 24px;
@@ -510,25 +510,21 @@ buffe section
 
 }
 
-.buffe-section .features .section-features{
+#buffe-section .features .section-features{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
 }
 
-.buffe-section .space-between{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+
 
 .list-group .list-group-item{
     color: #ffffff;
     text-decoration: none;
     background-color: #921a0231;
     letter-spacing: 1px;  
-    font-size:16px;  
+    font-size:14px;  
     padding: 3px 15px;
 }
 
